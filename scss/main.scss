@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+hr{
+    width: 80%;
+    color: black;
+}
+
+footer{
+    padding-top: 80px;
+}
+
+.body-index{
+    background-image: url("../img/Backround-Index.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.titulo{
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 48px;
+    color: rgb(130, 194, 11);
+    text-shadow: 0.0em 0.1em 0.1em black;
+}
+
+.nombre{
+    text-align: center;
+    color: rgb(88, 131, 8);
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+
+.categorias{   
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    .border{
+        background-color: rgb(128, 158, 73);
+        color: black;
+        border: 2px solid;
+    }
+}
+
+.contactame{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.biografia{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 180px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.biografia p {
+    margin-left: 25px;
+    margin-top: 60px;     
+}
+
+.contacto{
+    display: flex;
+    padding-left: 165px;
+    flex-direction: row;
+    list-style: none;
+    .red{
+        padding: 8px;
+    }
+}
+
+.separacion{
+    clear: both;
+}
+
+h3{
+    text-align: center;
+}
+.metodosdepago{
+    display: flex;
+    justify-content: center;
+    .cuentadni{
+        padding-top: 35px;
+    }
+
+}
