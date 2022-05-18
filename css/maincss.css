@@ -33,17 +33,26 @@ footer {
   padding-bottom: 40px; }
 
 .categorias {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  flex-direction: row;
   list-style: none;
-  font-size: 20px;
-  padding-bottom: 75px; }
-  .categorias .border {
-    background-color: #809e49;
-    color: black;
-    border: 2px solid; }
+  padding: 0px;
+  background: #d3fd84;
+  width: auto;
+  max-width: auto;
+  text-align: center; }
+
+.categorias li a {
+  color: white;
+  padding: 10px;
+  display: block; }
+
+.categorias li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-bottom: 12px; }
+
+.categorias li:hover {
+  background: #ade289;
+  background-size: cover; }
 
 .contactame {
   text-align: center;

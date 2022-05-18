@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
@@ -39,20 +40,36 @@ footer{
 }
 
 
-.categorias{   
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    flex-direction: row;
+   
+.categorias{
     list-style: none;
-    font-size: 20px;
-    padding-bottom: 75px;
-    .border{
-        background-color: rgb(128, 158, 73);
-        color: black;
-        border: 2px solid;
-    }
+    padding:0px;
+    background:rgb(211, 253, 132);
+    width: auto;
+    max-width: auto;
+    text-align: center;
+    
 }
+    
+.categorias li a{
+    color: white;
+    padding: 10px;
+    display: block;
+}
+    
+.categorias li{
+    display: inline-block;
+    margin-left: 100px;  
+    padding-bottom:12px; 
+}
+    
+.categorias li:hover{
+    background: #ade289;
+    background-size: cover;
+    
+}
+
+
 
 .contactame{
     text-align: center;
