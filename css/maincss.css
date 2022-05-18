@@ -35,7 +35,9 @@ footer {
 .categorias {
   list-style: none;
   padding: 0px;
-  background: #d3fd84;
+  background-image: url("../img/Backround-Nav.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: auto;
   max-width: auto;
   text-align: center; }
@@ -48,11 +50,13 @@ footer {
 .categorias li {
   display: inline-block;
   margin-left: 100px;
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  transition: ease-out all 0.5s; }
 
 .categorias li:hover {
-  background: #ade289;
-  background-size: cover; }
+  background: #b6b5b5;
+  background-size: cover;
+  transform: scale(1); }
 
 .contactame {
   text-align: center;

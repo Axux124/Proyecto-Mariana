@@ -38,36 +38,42 @@ footer{
     font-size: 25px;
     padding-bottom: 40px;
 }
-
-
-   
-.categorias{
+  
+.categorias{  
     list-style: none;
     padding:0px;
-    background:rgb(211, 253, 132);
+    background-image: url("../img/Backround-Nav.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: auto;
     max-width: auto;
     text-align: center;
-    
 }
-    
+
 .categorias li a{
     color: white;
     padding: 10px;
     display: block;
 }
-    
+
 .categorias li{
     display: inline-block;
     margin-left: 100px;  
-    padding-bottom:12px; 
+    padding-bottom:12px;
+    transition: ease-out all 0.5s;  
 }
-    
+
 .categorias li:hover{
-    background: #ade289;
+    background:#b6b5b5;
     background-size: cover;
-    
+    transform: scale(1);
 }
+    
+
+    
+
+    
+
 
 
 
