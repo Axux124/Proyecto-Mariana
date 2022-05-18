@@ -46,6 +46,7 @@ footer{
     flex-direction: row;
     list-style: none;
     font-size: 20px;
+    padding-bottom: 75px;
     .border{
         background-color: rgb(128, 158, 73);
         color: black;
@@ -55,9 +56,12 @@ footer{
 
 .contactame{
     text-align: center;
-    padding-top: 30px;
     font-family: 'Roboto Slab', serif;
     font-size:20px;
+    transition: 0.1s all ease-out;
+    .contactame:hover{
+        transform: scale(1.5);
+    }
 }
 
 .biografia{
@@ -67,24 +71,30 @@ footer{
     flex-direction: row;
     padding-left: 180px;
     padding-top: 70px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     font-size: 30px;
     font-family: 'Playball', cursive;
 }
 
 .biografia p {
     margin-left: 25px;
-    margin-top: 60px;     
+    margin-top: 60px;    
 }
 
 .contacto{
     display: flex;
-    padding-left: 165px;
+    padding-left: 167px;
     flex-direction: row;
-    list-style: none;
-    .red{
-        padding: 8px;
-    }
+    list-style: none; 
+    margin-top:0px;
+}
+
+.red-img{
+    padding: 3px;
+    transition: all 1s ease-in-out;
+    .red-img:hover{
+        transform: rotate(360deg);
+    }   
 }
 
 .separacion{
