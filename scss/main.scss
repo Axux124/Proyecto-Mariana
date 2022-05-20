@@ -139,6 +139,8 @@ footer{
 
 h2{
     text-align: center;
+    font-size: 40px;
+    font-family: 'Playball', cursive;
     text-decoration: underline;
     margin-top: 100px;
 }
@@ -160,4 +162,16 @@ h2{
 }
 .recetas-imagenes:hover{
     transform: scale(1.1);
+}
+
+
+.zoom{
+    .viaonline{
+        text-align: left;
+        margin-left: 190px;
+    }
+    
+    img{
+        width: 40%;
+    }
 }
