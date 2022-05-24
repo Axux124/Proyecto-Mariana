@@ -2,12 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Roboto+Slab:wght@100&display=swap");
-hr {
-  width: 80%;
-  color: black; }
+.recetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px; }
 
-footer {
-  padding-top: 80px; }
+.recetas-imagenes {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 50px;
+  transition: 0.1s all ease-out; }
+
+.recetas-imagenes:hover {
+  transform: scale(1.1); }
 
 .body-index {
   background-image: url("../img/Backround-Index.jpg");
@@ -42,29 +51,22 @@ footer {
   font-size: 35px;
   padding-bottom: 40px; }
 
-.categorias {
-  list-style: none;
-  padding: 0px;
+.container-fluid {
   background-image: url("../img/Backround-Nav.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  width: auto;
-  max-width: auto;
-  text-align: center;
-  font-size: 20px; }
+  background-repeat: no-repeat; }
 
-.categorias li a {
+.navbar-nav li a {
   color: white;
   padding: 10px;
   display: block; }
 
-.categorias li {
+.navbar-nav li {
   display: inline-block;
   margin-left: 100px;
-  padding-bottom: 12px;
   transition: ease-out all 0.5s; }
 
-.categorias li:hover {
+.navbar-nav li:hover {
   background: #b6b5b5;
   background-size: cover;
   transform: scale(1); }
@@ -100,7 +102,10 @@ footer {
   margin-top: 0px; }
 
 .contacto2 {
-  margin-left: 350px; }
+  display: flex;
+  justify-content: center;
+  margin-right: 150px;
+  margin-bottom: 100px; }
 
 .red-img {
   padding: 3px;
@@ -114,6 +119,10 @@ footer {
 h3 {
   text-align: center; }
 
+hr {
+  width: 80%;
+  color: black; }
+
 footer {
   font-family: 'Roboto Slab', serif;
   font-family: 'Nunito', sans-serif; }
@@ -124,28 +133,15 @@ footer {
     footer .metodosdepago .cuentadni {
       padding-top: 35px; }
 
+footer {
+  padding-top: 80px; }
+
 h2 {
   text-align: center;
   font-size: 40px;
   font-family: 'Playball', cursive;
   text-decoration: underline;
   margin-top: 50px; }
-
-.recetas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 100px; }
-
-.recetas-imagenes {
-  border: 2px solid black;
-  padding: 10px;
-  margin: 50px;
-  transition: 0.1s all ease-out; }
-
-.recetas-imagenes:hover {
-  transform: scale(1.1); }
 
 .imagen-curso {
   display: flex;
