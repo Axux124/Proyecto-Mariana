@@ -37,6 +37,15 @@
   background-size: cover;
   margin: 0; }
 
+.body-cursos {
+  background-image: url(../img/Background-Cursos.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  margin: 0; }
+
 .titulo {
   text-align: center;
   font-family: 'Playball', cursive;
@@ -73,7 +82,9 @@
 
 .contactame {
   text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: serif;
+  font-weight: 500px;
+  margin: 25px;
   font-size: 20px;
   transition: 0.1s all ease-out; }
   .contactame .contactame:hover {
@@ -96,7 +107,7 @@
 
 .contacto, .contacto2 {
   display: flex;
-  padding-left: 167px;
+  padding-left: 190px;
   flex-direction: row;
   list-style: none;
   margin-top: 0px; }
@@ -120,6 +131,7 @@ h3 {
   text-align: center; }
 
 hr {
+  margin-left: 100px;
   width: 80%;
   color: black; }
 
@@ -149,3 +161,21 @@ h2 {
   justify-content: center;
   justify-content: space-around;
   align-items: center; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    width: 100%; }
+  .biografia {
+    display: grid;
+    grid-area: auto;
+    padding: 10px; }
+    .biografia img {
+      border: 2px solid black; }
+  hr {
+    margin: 0px;
+    width: 100%;
+    align-self: center; }
+  .contacto, .contacto2 {
+    width: 100%;
+    margin: 40px;
+    padding: 0px; } }

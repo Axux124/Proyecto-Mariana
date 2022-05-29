@@ -21,6 +21,16 @@
     margin: 0;
 }
 
+.body-cursos{
+    background-image: url(../img/Background-Cursos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    background-size: cover; 
+    margin: 0;
+
+}
 
 .titulo{
     text-align: center;
@@ -41,7 +51,6 @@
     background-image: url("../img/Backround-Nav.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .navbar-nav li a{
     color: white;
@@ -63,7 +72,9 @@
 
 .contactame{
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: serif;
+    font-weight: 500px;
+    margin: 25px;
     font-size:20px;
     transition: 0.1s all ease-out;
     .contactame:hover{
@@ -81,6 +92,7 @@
     padding-bottom: 10px;
     font-size: 30px;
     font-family: 'Playball', cursive;
+
 }
 
 .biografia p {
@@ -90,7 +102,7 @@
 
 .contacto{
     display: flex;
-    padding-left: 167px;
+    padding-left: 190px;
     flex-direction: row;
     list-style: none; 
     margin-top:0px;
@@ -121,6 +133,7 @@ h3{
 }
 
 hr{
+    margin-left: 100px;
     width: 80%;
     color: black;
 }
@@ -133,9 +146,9 @@ footer{
         display: flex;
         justify-content: center;
         font-size:30px;
-       
         .cuentadni{
             padding-top: 35px;
+            
         }
 
     }
